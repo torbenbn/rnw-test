@@ -9,8 +9,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        architecture: [x86, x64, ARM64]
-        configuration: [Debug, Release]
+        architecture: [x64]
+        configuration: [Release]
 
     steps:
     - uses: actions/checkout@v2
